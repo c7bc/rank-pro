@@ -1,0 +1,75 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-black: #050505;
+  --color-surface: #0F0F0F;
+  --color-surface-highlight: #1A1A1A;
+  --color-electric-blue: #007AFF;
+  --color-electric-blue-glow: rgba(0, 122, 255, 0.5);
+
+  --color-grey-100: #F3F3F3;
+  --color-grey-300: #CCCCCC;
+  --color-grey-500: #888888;
+  --color-grey-700: #444444;
+  --color-grey-900: #111111;
+
+  --font-family-sans: 'Satoshi', sans-serif;
+  --font-family-display: 'Satoshi', sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --animate-float: float 10s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-spin-slow: spin 12s linear infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-black);
+}
+
+body {
+  background-color: var(--color-black);
+  color: #ffffff;
+  font-family: var(--font-family-sans);
+}
+
+/* Utility Classes */
+.glass-card {
+  background: rgba(13, 13, 13, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px var(--color-electric-blue-glow);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-electric-blue);
+  color: white;
+}
