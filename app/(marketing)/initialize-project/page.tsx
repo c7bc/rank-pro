@@ -5,10 +5,10 @@ import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Initialize Your Project',
-  description: 'Start your journey to Google dominance. Learn how to begin your SEO infrastructure project with RANK PRO by DHYZ.',
+  description: 'Start your journey to Google dominance. Learn how to begin your SEO campaign with RANK PRO by DHYZ.',
   openGraph: {
     title: 'Initialize Project | RANK PRO',
-    description: 'Start your journey to Google dominance with enterprise-grade SEO infrastructure.',
+    description: 'Start your journey to Google dominance with enterprise-grade SEO services.',
     images: ['/api/og?title=Initialize%20Project&description=Start%20your%20journey%20to%20Google%20dominance&type=page'],
   },
 }
@@ -27,7 +27,7 @@ const steps = [
   {
     icon: Zap,
     title: 'Rapid Deployment',
-    description: 'We build and deploy your custom SEO infrastructure with full transparency throughout the process.'
+    description: 'We build and deploy your custom SEO campaign with full transparency throughout the process.'
   },
   {
     icon: CheckCircle,

@@ -12,12 +12,12 @@ import { Contact } from '@/components/sections/Contact'
 import { OrganizationJsonLd, LocalBusinessJsonLd, FAQJsonLd, ServiceJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'RANK PRO - Local Search Engineering | DHYZ',
-  description: 'Precision-engineered local SEO infrastructure. We build scalable reputation systems for Las Vegas businesses. One-time build. Zero maintenance latency.',
+  title: 'RANK PRO - Google Ranking & Review Management | DHYZ',
+  description: 'Data-driven local SEO and review generation for Las Vegas businesses. Rank higher on Google, generate authentic reviews, own your digital presence. One-time setup. Permanent results.',
   openGraph: {
-    title: 'RANK PRO - Engineering Reputation Systems',
-    description: 'Enterprise-grade SEO infrastructure and verified review architecture for businesses demanding market dominance.',
-    images: ['/api/og?title=Engineering%20Reputation%20Systems&description=Enterprise-grade%20SEO%20infrastructure%20for%20market%20dominance&type=home'],
+    title: 'Dominate Local Search & Own Your Reviews',
+    description: 'Proven local SEO services and authentic Google review generation for businesses demanding market dominance.',
+    images: ['/api/og?title=Dominate%20Local%20Search%20%26%20Own%20Your%20Reviews&description=Proven%20local%20SEO%20and%20Google%20review%20generation&type=home'],
   },
 }
 
@@ -28,7 +28,7 @@ export default function HomePage() {
         name="RANK PRO by DHYZ"
         url="https://rankpro.dhyz.company"
         logo="https://rankpro.dhyz.company/logo.png"
-        description="Enterprise-grade SEO infrastructure and verified review architecture"
+        description="Proven local SEO services and authentic Google review generation"
       />
       <LocalBusinessJsonLd />
       <ServiceJsonLd services={[

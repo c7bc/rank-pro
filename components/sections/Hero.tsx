@@ -8,7 +8,7 @@ import { CircularTextButton } from '@/components/ui/CircularTextButton'
 export const Hero = () => {
   return (
     <section id="hero" className="relative bg-black overflow-hidden min-h-screen pt-32 pb-20 flex items-center justify-center">
-      {/* Abstract Engineering Grid */}
+      {/* SEO Rankings Visual */}
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none"></div>
       <div
         className="absolute inset-0 pointer-events-none opacity-20"
@@ -31,7 +31,7 @@ export const Hero = () => {
           className="mb-10 flex items-center gap-3 justify-center"
         >
           <div className="h-px w-8 bg-electric-blue/50"></div>
-          <span className="text-electric-blue text-xs font-bold uppercase tracking-[0.3em]">DHYZ Infrastructure Division</span>
+          <span className="text-electric-blue text-xs font-bold uppercase tracking-[0.3em]">DHYZ</span>
           <div className="h-px w-8 bg-electric-blue/50"></div>
         </motion.div>
 
@@ -42,8 +42,8 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-6xl md:text-8xl lg:text-[110px] font-display font-bold text-white leading-[0.95] mb-8 tracking-tight"
         >
-          Engineering <br />
-          <span className="text-grey-500">Reputation Systems.</span>
+          Dominate Local Search. <br />
+          <span className="text-grey-500">Own Your Reviews.</span>
         </motion.h1>
 
         <motion.p
@@ -52,7 +52,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-grey-300 text-lg md:text-2xl max-w-3xl leading-relaxed mb-14 font-light"
         >
-          <b>RANK PRO</b> provides enterprise-grade SEO infrastructure and verified review architecture for businesses demanding market dominance. <br className="hidden md:block" />One-time build. Zero maintenance latency.
+          <b>RANK PRO</b> delivers proven local SEO services and authentic Google review generation for businesses demanding market dominance. <br className="hidden md:block" />One-time setup. Permanent results.
         </motion.p>
 
         {/* Buttons */}

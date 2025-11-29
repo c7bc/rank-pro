@@ -47,8 +47,8 @@ const integrations = [
   {
     icon: Plug,
     title: 'Custom Integrations',
-    description: 'Our engineering team can build custom integrations for your specific needs.',
-    features: ['Dedicated support', 'Custom development', 'SLA guarantees', 'Enterprise priority']
+    description: 'Our team can implement custom integrations for your specific needs.',
+    features: ['Dedicated support', 'Custom solutions', 'SLA guarantees', 'Enterprise priority']
   }
 ]
 
@@ -71,7 +71,7 @@ export default function IntegrationPage() {
               Seamless <span className="text-grey-500">Integrations</span>
             </h1>
             <p className="text-grey-300 text-xl">
-              Connect RANK PRO with your existing technology stack. Our open architecture ensures compatibility with virtually any system.
+              Connect RANK PRO with your existing technology stack. Our flexible platform ensures compatibility with virtually any system.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export default function IntegrationPage() {
                 <p className="text-grey-500">Our team can build exactly what you need.</p>
               </div>
               <Link href="/contact" className="px-8 py-4 bg-white text-black font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-grey-100 transition-colors whitespace-nowrap">
-                Contact Engineering
+                Contact Us
               </Link>
             </div>
           </div>

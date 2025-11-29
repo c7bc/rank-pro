@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
 
   const title = searchParams.get('title') || 'RANK PRO'
-  const description = searchParams.get('description') || 'Local Search Engineering'
+  const description = searchParams.get('description') || 'Google Ranking & Review Management'
   const type = searchParams.get('type') || 'default'
 
   return new ImageResponse(
@@ -84,7 +84,7 @@ export async function GET(request: NextRequest) {
             textTransform: 'uppercase',
           }}
         >
-          DHYZ Infrastructure
+          DHYZ
         </div>
 
         {/* Main content */}

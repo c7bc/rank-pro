@@ -5,11 +5,11 @@ import { BreadcrumbJsonLd, ServiceJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Technical Architecture',
-  description: 'Explore the technical architecture powering RANK PRO\'s local SEO infrastructure. Built for scale, security, and performance.',
+  description: 'Explore the technical architecture powering RANK PRO\'s local SEO platform. Built for scale, security, and performance.',
   openGraph: {
     title: 'Technical Architecture | RANK PRO',
-    description: 'Enterprise-grade SEO infrastructure design for maximum performance and reliability.',
-    images: ['/api/og?title=Technical%20Architecture&description=Enterprise-grade%20infrastructure%20design&type=page'],
+    description: 'Enterprise-grade SEO platform design for maximum performance and reliability.',
+    images: ['/api/og?title=Technical%20Architecture&description=Enterprise-grade%20platform%20design&type=page'],
   },
 }
 
@@ -32,7 +32,7 @@ const architecture = [
   {
     icon: Shield,
     title: 'Security Layer',
-    description: 'Enterprise-grade security with encryption at rest and in transit. SOC 2 compliant infrastructure.'
+    description: 'Enterprise-grade security with encryption at rest and in transit. SOC 2 compliant platform.'
   },
   {
     icon: Cpu,
@@ -42,7 +42,7 @@ const architecture = [
   {
     icon: Network,
     title: 'API Integration Layer',
-    description: 'RESTful APIs connect your existing systems with our infrastructure for seamless automation.'
+    description: 'RESTful APIs connect your existing systems with our platform for seamless automation.'
   }
 ]
 
@@ -69,7 +69,7 @@ export default function ArchitecturePage() {
               Technical <span className="text-grey-500">Architecture</span>
             </h1>
             <p className="text-grey-300 text-xl">
-              Our infrastructure is engineered for enterprise-grade performance, security, and scalability. Every component is designed to maximize your Google rankings.
+              Our platform delivers enterprise-grade performance, security, and scalability. Every component is designed to maximize your Google rankings.
             </p>
           </div>
 
@@ -88,7 +88,7 @@ export default function ArchitecturePage() {
           <div className="bg-surface border border-white/5 rounded-2xl p-12 text-center">
             <h2 className="text-3xl font-display font-medium text-white mb-4">Ready to See It in Action?</h2>
             <p className="text-grey-500 mb-8 max-w-xl mx-auto">
-              Schedule a technical deep-dive with our engineering team to understand how our architecture can power your business.
+              Schedule a strategy session with our SEO consultants to understand how our platform can power your business.
             </p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-4 bg-electric-blue text-white font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-electric-blue/80 transition-colors">
               Request Technical Demo

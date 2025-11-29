@@ -31,7 +31,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-2xl font-display font-medium text-white mb-4">2. Description of Services</h2>
               <p className="text-grey-300 leading-relaxed">
-                RANK PRO provides local SEO infrastructure, review generation systems, and related digital marketing services. Our Services are designed to help businesses improve their online presence and reputation on platforms like Google Business Profile.
+                RANK PRO provides local SEO services, review generation systems, and related digital marketing services. Our Services are designed to help businesses improve their online presence and reputation on platforms like Google Business Profile.
               </p>
             </div>
 

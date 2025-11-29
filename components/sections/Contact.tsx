@@ -33,7 +33,7 @@ export const Contact = () => {
             Let&apos;s Build
           </div>
           <h2 className="text-white font-display font-medium text-5xl md:text-6xl mb-6">
-            Have a complex challenge? <br/> Let&apos;s architect your solution.
+            Have a complex challenge? <br/> Let&apos;s design your solution.
           </h2>
         </div>
 

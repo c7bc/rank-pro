@@ -5,11 +5,11 @@ import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Enterprise Solutions',
-  description: 'Enterprise-grade SEO infrastructure for multi-location businesses. Dedicated support, custom SLAs, and white-glove service.',
+  description: 'Enterprise-grade SEO solutions for multi-location businesses. Dedicated support, custom SLAs, and white-glove service.',
   openGraph: {
     title: 'Enterprise Solutions | RANK PRO',
-    description: 'Enterprise-grade SEO infrastructure for multi-location businesses.',
-    images: ['/api/og?title=Enterprise%20Solutions&description=Multi-location%20SEO%20infrastructure&type=page'],
+    description: 'Enterprise-grade SEO solutions for multi-location businesses.',
+    images: ['/api/og?title=Enterprise%20Solutions&description=Multi-location%20SEO%20solutions&type=page'],
   },
 }
 
@@ -32,7 +32,7 @@ const benefits = [
   {
     icon: Headphones,
     title: 'Priority Support',
-    description: '24/7 access to our engineering team with guaranteed response within 2 hours.'
+    description: '24/7 access to our SEO consultants with guaranteed response within 2 hours.'
   },
   {
     icon: Clock,
@@ -66,7 +66,7 @@ export default function EnterprisePage() {
                 Built for <span className="text-grey-500">Scale</span>
               </h1>
               <p className="text-grey-300 text-xl mb-8">
-                For businesses managing multiple locations or requiring custom solutions, our enterprise tier delivers the infrastructure, support, and flexibility you need.
+                For businesses managing multiple locations or requiring custom solutions, our enterprise tier delivers the services, support, and flexibility you need.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" className="px-8 py-4 bg-electric-blue text-white font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-electric-blue/80 transition-colors">
@@ -80,7 +80,7 @@ export default function EnterprisePage() {
             <div className="bg-surface border border-white/5 rounded-2xl p-8">
               <h3 className="text-2xl font-display font-medium text-white mb-6">Enterprise Includes</h3>
               <ul className="space-y-4">
-                {['Unlimited locations', 'Custom integrations', 'Dedicated infrastructure', 'White-label options', 'API access', 'Custom contracts'].map((item, i) => (
+                {['Unlimited locations', 'Custom integrations', 'Dedicated account management', 'White-label options', 'API access', 'Custom contracts'].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-grey-300">
                     <span className="w-2 h-2 bg-electric-blue rounded-full"></span>
                     {item}

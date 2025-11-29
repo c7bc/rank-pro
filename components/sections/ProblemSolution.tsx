@@ -23,12 +23,12 @@ export const ProblemSolution = () => {
               <p className="text-grey-300 text-lg md:text-xl leading-relaxed mb-8 font-light">
                 Buying fake reviews is a death sentence for your Google Business Profile. Google&apos;s AI bans listings with suspicious activity.
                 <br/><br/>
-                We engineer <b>authentic</b> review generation systems. We build the infrastructure that compels your <i>real</i> customers to leave 5-star feedback, ensuring you rank higher without the risk.
+                We create <b>authentic</b> review generation systems. We develop the processes that compel your <i>real</i> customers to leave 5-star feedback, ensuring you rank higher without the risk.
               </p>
             </motion.div>
 
             <div className="flex flex-wrap gap-3">
-              {['Real Customer Verification', 'Anti-Spam Filtering', 'Google Compliant', 'Growth Engineering'].map((tag) => (
+              {['Real Customer Verification', 'Anti-Spam Filtering', 'Google Compliant', 'Review Growth'].map((tag) => (
                 <span key={tag} className="px-4 py-2 bg-surface border border-white/10 rounded-lg text-electric-blue text-sm font-medium">
                   {tag}
                 </span>

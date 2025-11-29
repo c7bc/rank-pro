@@ -13,7 +13,7 @@ export const Footer = () => {
             </div>
             <p className="text-grey-500 text-sm max-w-xs">
               A product of <a href="https://dhyz.framer.website/" className="text-white hover:underline">DHYZ Management</a>.<br/>
-              Engineering digital dominance for the modern enterprise.
+              Delivering digital dominance for the modern enterprise.
             </p>
           </div>
 

@@ -15,7 +15,7 @@ const reviews = [
   },
   {
     company: "Neon City Law",
-    review: "Finally, an SEO agency that doesn't charge monthly fees. They built the infrastructure, handed us the keys, and we own the ranking.",
+    review: "Finally, an SEO agency that doesn't charge monthly fees. They built the system, handed us the keys, and we own the ranking.",
     tags: ["Professionalism", "Quality"],
     date: "3 weeks ago"
   }

@@ -13,7 +13,7 @@ const services = [
   },
   {
     title: "Review Filtering Engine",
-    description: "Our infrastructure intercepts negative feedback before it goes public, allowing you to resolve issues privately while amplifying 5-star ratings.",
+    description: "Our platform intercepts negative feedback before it goes public, allowing you to resolve issues privately while amplifying 5-star ratings.",
     icon: MessageSquare
   },
   {
@@ -33,15 +33,15 @@ export const Services = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-electric-blue text-xs uppercase tracking-widest mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-electric-blue shadow-[0_0_10px_#007AFF]"></span>
-              Core Infrastructure
+              Core Services
             </div>
             <h2 className="text-white font-display font-medium text-5xl md:text-7xl leading-[1.1]">
-              Real Authority, <br />
-              <span className="text-grey-500">Engineered Trust.</span>
+              Real Authority. <br />
+              <span className="text-grey-500">Lasting Results.</span>
             </h2>
           </div>
           <p className="text-grey-500 max-w-md text-lg">
-            We don&apos;t just &quot;do SEO&quot;. We build permanent reputation assets on Google that you own forever.
+            We don&apos;t just &quot;do SEO&quot;. We create permanent reputation assets on Google that you own forever.
           </p>
         </div>
 

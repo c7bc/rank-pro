@@ -46,7 +46,7 @@ export const ReviewPricing = () => {
             Volume <span className="text-electric-blue">Packages.</span>
           </h2>
           <p className="text-grey-500 text-xl max-w-2xl mx-auto">
-            Authentic, verified reviews delivered via our engineering infrastructure. Safe, compliant, and permanent.
+            Authentic, verified reviews delivered through our proven platform. Safe, compliant, and permanent.
           </p>
         </div>
 

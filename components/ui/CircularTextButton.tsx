@@ -9,7 +9,7 @@ interface CircularTextButtonProps {
 }
 
 export const CircularTextButton = ({
-  text = "Engineered • Precision • ",
+  text = "Proven • Precision • ",
   onClick,
   className = ""
 }: CircularTextButtonProps) => {

@@ -4,10 +4,10 @@ import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Our Methodology',
-  description: 'Discover the proven 4-step methodology that powers RANK PRO\'s success. Discovery, Architecture, Build, and Launch.',
+  description: 'Discover the proven 4-step methodology that powers RANK PRO\'s success. Discovery, Strategy, Implementation, and Growth.',
   openGraph: {
     title: 'Methodology | RANK PRO',
-    description: 'Our proven 4-step process for SEO infrastructure success.',
+    description: 'Our proven 4-step process for SEO success.',
     images: ['/api/og?title=Our%20Methodology&description=Proven%204-step%20process%20for%20SEO%20success&type=page'],
   },
 }
@@ -28,11 +28,11 @@ const methodology = [
   },
   {
     phase: '02',
-    title: 'Architecture & Design',
+    title: 'Strategy & Planning',
     duration: 'Week 2',
-    description: 'Our engineering team designs your custom SEO infrastructure blueprint. Every system, workflow, and integration is mapped out for your approval before we begin building.',
+    description: 'Our SEO strategists create your custom ranking plan. Every campaign element, workflow, and integration is mapped out for your approval before we begin implementation.',
     deliverables: [
-      'System architecture diagram',
+      'Campaign strategy document',
       'Workflow automation designs',
       'Integration specifications',
       'Timeline and milestones',
@@ -41,12 +41,12 @@ const methodology = [
   },
   {
     phase: '03',
-    title: 'Build & Iterate',
+    title: 'Implementation & Optimization',
     duration: 'Weeks 3-4',
-    description: 'Agile development of your SEO infrastructure with weekly progress updates. We build, test, and refine each component with full transparency throughout.',
+    description: 'Strategic implementation of your SEO campaign with weekly progress updates. We execute, test, and refine each component with full transparency throughout.',
     deliverables: [
       'Review generation system',
-      'Citation network buildout',
+      'Citation network development',
       'Analytics dashboard setup',
       'Automation configurations',
       'Quality assurance testing'
@@ -56,9 +56,9 @@ const methodology = [
     phase: '04',
     title: 'Launch & Handover',
     duration: 'Week 5',
-    description: 'Full deployment of your infrastructure with complete documentation and optional training. You receive ownership of all assets and ongoing support access.',
+    description: 'Full activation of your SEO campaign with complete documentation and optional training. You receive ownership of all assets and ongoing support access.',
     deliverables: [
-      'Production deployment',
+      'Campaign activation',
       'Documentation package',
       'Training sessions',
       'Support access',

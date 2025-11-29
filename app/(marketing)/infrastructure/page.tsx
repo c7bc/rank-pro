@@ -5,10 +5,10 @@ import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Infrastructure',
-  description: 'Enterprise-grade infrastructure powering RANK PRO. 99.9% uptime, global CDN, SOC 2 compliance, and real-time monitoring.',
+  description: 'Enterprise-grade platform powering RANK PRO. 99.9% uptime, global CDN, SOC 2 compliance, and real-time monitoring.',
   openGraph: {
     title: 'Infrastructure | RANK PRO',
-    description: 'Enterprise-grade infrastructure with 99.9% uptime guarantee.',
+    description: 'Enterprise-grade platform with 99.9% uptime guarantee.',
     images: ['/api/og?title=Infrastructure&description=Enterprise-grade%20with%2099.9%25%20uptime&type=page'],
   },
 }
@@ -72,7 +72,7 @@ export default function InfrastructurePage() {
               Enterprise <span className="text-grey-500">Infrastructure</span>
             </h1>
             <p className="text-grey-300 text-xl max-w-2xl mx-auto">
-              Built on battle-tested technology stack with redundancy at every layer. Your SEO infrastructure runs on the same foundations as Fortune 500 companies.
+              Built on proven platform capabilities with redundancy at every layer. Your SEO services run on the same foundations as Fortune 500 companies.
             </p>
           </div>
 
@@ -98,10 +98,10 @@ export default function InfrastructurePage() {
           <div className="bg-surface border border-electric-blue/20 rounded-2xl p-8 md:p-12 text-center">
             <h2 className="text-2xl md:text-3xl font-display font-medium text-white mb-4">Questions About Our Infrastructure?</h2>
             <p className="text-grey-500 mb-8 max-w-xl mx-auto">
-              Our engineering team is happy to discuss technical requirements, compliance needs, or custom deployment options.
+              Our SEO consultants are happy to discuss technical requirements, compliance needs, or custom deployment options.
             </p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-4 bg-electric-blue text-white font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-electric-blue/80 transition-colors">
-              Talk to Engineering
+              Talk to Our Team
             </Link>
           </div>
         </div>

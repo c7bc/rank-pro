@@ -4,22 +4,22 @@ const steps = [
   {
     number: "01",
     title: "Discovery & Strategy",
-    description: "Deep dive into your business goals, market, and technical challenges. Strategic alignment to define KPIs and a roadmap."
+    description: "Deep dive into your business goals, market, and competitive landscape. Strategic alignment to define KPIs and a roadmap."
   },
   {
     number: "02",
-    title: "Architect & Design",
-    description: "Our lead architects map out the system architecture and user flow. You approve a comprehensive blueprint before we build."
+    title: "Strategy & Planning",
+    description: "Our SEO strategists create your custom roadmap and campaign structure. You approve a comprehensive plan before we implement."
   },
   {
     number: "03",
-    title: "Build & Iterate",
-    description: "Agile execution delivering functional assets. Full transparency and adaptation during the build phase."
+    title: "Implementation & Optimization",
+    description: "Strategic execution delivering measurable results. Full transparency and adaptation during the implementation phase."
   },
   {
     number: "04",
     title: "Launch & Scale",
-    description: "Deployment of your Local SEO infrastructure and review systems. We hand over the keys for you to scale."
+    description: "Activation of your local SEO campaign and review generation. We hand over complete control for you to scale."
   }
 ]
 
@@ -36,10 +36,10 @@ export const HowItWorks = () => {
               Our Methodology
             </div>
             <h2 className="text-white font-display font-medium text-5xl md:text-6xl leading-[1.1] mb-8">
-              A Blueprint <br /> for Success.
+              A Roadmap <br /> for Success.
             </h2>
             <p className="text-grey-500 text-lg">
-              Our process is built on transparency, strategic alignment, and agile execution to deliver scalable solutions.
+              Our process is built on transparency, strategic alignment, and proven execution to deliver measurable results.
             </p>
 
             <div className="mt-12">

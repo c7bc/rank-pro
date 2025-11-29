@@ -5,7 +5,7 @@ import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Success Stories',
-  description: 'Real results from real businesses. See how RANK PRO has transformed local businesses with verified Google reviews and SEO infrastructure.',
+  description: 'Real results from real businesses. See how RANK PRO has transformed local businesses with verified Google reviews and SEO services.',
   openGraph: {
     title: 'Success Stories | RANK PRO',
     description: 'Real results from real businesses using RANK PRO.',
@@ -18,7 +18,7 @@ const caseStudies = [
     company: 'Las Vegas HVAC Pros',
     industry: 'Home Services',
     challenge: 'Stuck at 12 reviews with a 3.9 rating, invisible in local search results.',
-    solution: 'Implemented our review generation system and local SEO infrastructure.',
+    solution: 'Implemented our review generation system and local SEO campaign.',
     results: [
       { metric: '42', label: 'New reviews in first month' },
       { metric: '4.9', label: 'Star rating achieved' },
@@ -53,7 +53,7 @@ const caseStudies = [
       { metric: '312%', label: 'Lead increase' },
       { metric: '$0', label: 'Monthly SEO fees' }
     ],
-    quote: "Finally, an SEO agency that doesn't charge monthly fees. They built the infrastructure, handed us the keys, and we own the ranking.",
+    quote: "Finally, an SEO agency that doesn't charge monthly fees. They built the system, handed us the keys, and we own the ranking.",
     timeline: '5 weeks'
   }
 ]
@@ -77,7 +77,7 @@ export default function SuccessStoriesPage() {
               Success <span className="text-grey-500">Stories</span>
             </h1>
             <p className="text-grey-300 text-xl max-w-2xl mx-auto">
-              Real businesses. Real results. See how our infrastructure transforms local search presence.
+              Real businesses. Real results. See how our services transform local search presence.
             </p>
           </div>
 

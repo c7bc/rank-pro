@@ -51,7 +51,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-display font-medium text-white mb-4">3. Data Security</h2>
               <p className="text-grey-300 leading-relaxed">
-                We implement industry-standard security measures including encryption in transit (TLS 1.3) and at rest (AES-256), regular security audits, and access controls. Our infrastructure is SOC 2 compliant.
+                We implement industry-standard security measures including encryption in transit (TLS 1.3) and at rest (AES-256), regular security audits, and access controls. Our platform is SOC 2 compliant.
               </p>
             </div>
 

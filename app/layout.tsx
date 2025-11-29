@@ -4,10 +4,10 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://rankpro.dhyz.company'),
   title: {
-    default: 'RANK PRO - Local Search Engineering | DHYZ',
+    default: 'RANK PRO - Google Ranking & Review Management | DHYZ',
     template: '%s | RANK PRO by DHYZ',
   },
-  description: 'Precision-engineered local SEO infrastructure. We build scalable reputation systems for Las Vegas businesses. One-time build. Zero maintenance latency.',
+  description: 'Data-driven local SEO and review generation. We create proven reputation systems for Las Vegas businesses. One-time setup. Permanent results.',
   keywords: ['SEO', 'Local SEO', 'Google Reviews', 'Las Vegas SEO', 'Reputation Management', 'Google Business Profile', 'DHYZ'],
   authors: [{ name: 'DHYZ Management' }],
   creator: 'DHYZ Management',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'RANK PRO',
-    title: 'RANK PRO - Engineering Reputation Systems',
-    description: 'Enterprise-grade SEO infrastructure and verified review architecture for businesses demanding market dominance.',
+    title: 'Dominate Local Search & Own Your Reviews',
+    description: 'Proven local SEO services and authentic Google review generation for businesses demanding market dominance.',
   },
   twitter: {
     card: 'summary_large_image',

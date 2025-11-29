@@ -10,7 +10,7 @@ export const ChatWidget = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: '1',
-      text: "Welcome to RANK PRO by DHYZ. I am your engineering assistant. How can we help architect your search infrastructure?",
+      text: "Welcome to RANK PRO by DHYZ. I'm your SEO specialist. How can we help you rank higher on Google and generate more reviews?",
       sender: 'bot',
       timestamp: new Date()
     }

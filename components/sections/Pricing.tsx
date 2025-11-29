@@ -21,7 +21,7 @@ const plans = [
     name: "Local SEO Core",
     price: "1,997",
     period: "one-time",
-    description: "Pure ranking infrastructure.",
+    description: "Pure ranking optimization.",
     features: ["Google Business Profile Optimization", "Competitor Keyword Analysis", "Local Citation Cleanup", "On-Page SEO Structure"]
   }
 ]
@@ -35,7 +35,7 @@ export const Pricing = () => {
             Pay Once. <span className="text-electric-blue">Rank Forever.</span>
           </h2>
           <p className="text-grey-500 text-xl max-w-2xl mx-auto">
-            Engineering success without the monthly bloat. One-time investment for a lifetime asset.
+            Delivering success without the monthly bloat. One-time investment for a lifetime asset.
           </p>
         </div>
 

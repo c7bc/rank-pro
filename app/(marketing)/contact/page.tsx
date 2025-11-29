@@ -5,10 +5,10 @@ import { Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with RANK PRO. Book a free consultation to discuss your local SEO infrastructure needs.',
+  description: 'Get in touch with RANK PRO. Book a free consultation to discuss your local SEO needs.',
   openGraph: {
     title: 'Contact Us | RANK PRO',
-    description: 'Book a free consultation for your SEO infrastructure project.',
+    description: 'Book a free consultation for your SEO project.',
     images: ['/api/og?title=Contact%20Us&description=Book%20a%20free%20consultation&type=page'],
   },
 }
