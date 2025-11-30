@@ -107,8 +107,8 @@ export const ReviewPricing = () => {
                   className={`
                     w-full py-3 rounded-lg flex items-center justify-center gap-2 font-medium text-xs uppercase tracking-wider transition-all border
                     ${plan.isHighlighted
-                      ? 'bg-electric-blue text-white border-electric-blue hover:bg-electric-blue/80'
-                      : 'bg-transparent text-white border-white/20 hover:bg-white/5'}
+                      ? 'bg-electric-blue text-white border-electric-blue hover:brightness-90'
+                      : 'bg-white/5 text-white border-white/20 hover:bg-white/10'}
                   `}
                 >
                   Purchase Package

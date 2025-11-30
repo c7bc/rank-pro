@@ -84,7 +84,7 @@ export const Pricing = () => {
                 className={`
                   mt-10 w-full py-4 rounded-lg flex items-center justify-center gap-2 font-medium text-sm uppercase tracking-wider transition-all border
                   ${plan.isHighlighted
-                    ? 'bg-electric-blue text-white border-electric-blue hover:bg-electric-blue/80'
+                    ? 'bg-electric-blue text-white border-electric-blue hover:brightness-90'
                     : 'bg-white/5 text-white border-white/20 hover:bg-white/10'}
                 `}
               >
