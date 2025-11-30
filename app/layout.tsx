@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -55,6 +56,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className="bg-black text-white antialiased overflow-x-hidden font-sans">
         {children}
+        <Script src="https://app.cal.com/embed/embed.js" strategy="lazyOnload" />
       </body>
     </html>
   )

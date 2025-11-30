@@ -1,5 +1,7 @@
-import Link from 'next/link'
+'use client'
+
 import { Check } from 'lucide-react'
+import { CalButton } from '@/components/ui/CalButton'
 
 const plans = [
   {
@@ -77,14 +79,17 @@ export const Pricing = () => {
                 </ul>
               </div>
 
-              <Link href="/contact" className={`
-                mt-10 w-full py-4 rounded-lg flex items-center justify-center gap-2 font-medium text-sm uppercase tracking-wider transition-all border
-                ${plan.isHighlighted
-                  ? 'bg-electric-blue text-white border-electric-blue hover:bg-electric-blue/80'
-                  : 'bg-transparent text-white border-white/20 hover:bg-white/5'}
-              `}>
+              <CalButton
+                calLink="30min"
+                className={`
+                  mt-10 w-full py-4 rounded-lg flex items-center justify-center gap-2 font-medium text-sm uppercase tracking-wider transition-all border
+                  ${plan.isHighlighted
+                    ? 'bg-electric-blue text-white border-electric-blue hover:bg-electric-blue/80'
+                    : 'bg-white/5 text-white border-white/20 hover:bg-white/10'}
+                `}
+              >
                 Get Started
-              </Link>
+              </CalButton>
             </div>
           ))}
         </div>

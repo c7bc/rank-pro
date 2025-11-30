@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
-import { ArrowRight, CheckCircle, Clock, Users, Zap } from 'lucide-react'
+import { CheckCircle, Clock, Users, Zap } from 'lucide-react'
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+import { CalButton } from '@/components/ui/CalButton'
 
 export const metadata: Metadata = {
   title: 'Initialize Your Project',
@@ -82,10 +82,7 @@ export default function InitializeProjectPage() {
           </div>
 
           <div className="text-center">
-            <Link href="/contact" className="inline-flex items-center gap-2 px-10 py-5 bg-white text-black font-bold text-sm uppercase tracking-wider rounded-sm hover:bg-grey-100 transition-colors">
-              Book Free Consultation
-              <ArrowRight size={16} />
-            </Link>
+            <CalButton calLink="30min" variant="secondary" />
             <p className="text-grey-500 text-sm mt-4">No commitment required. 100% free initial audit.</p>
           </div>
         </div>
