@@ -67,13 +67,18 @@ export const CalButton = ({
     secondary: "px-10 py-5 bg-white text-black text-sm uppercase tracking-wider rounded-sm hover:bg-grey-100"
   }
 
+  // If custom className is provided, use it entirely; otherwise use variant
+  const buttonClasses = className.includes('bg-')
+    ? `${baseStyles} ${className}`
+    : `${baseStyles} ${variantStyles[variant]} ${className}`
+
   return (
     <button
       type="button"
       onClick={handleClick}
       data-cal-link={`dhyz.agency/${calLink}`}
       data-cal-config='{"theme":"dark"}'
-      className={`${baseStyles} ${variantStyles[variant]} ${className}`}
+      className={buttonClasses}
     >
       {children || (
         <>
