@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "16.0.5",
+    "next": "16.0.10",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.554.0",
     "@google/genai": "^1.30.0",
     "react-markdown": "^9.0.1",
-        "@vercel/og": "^0.6.8"
+    "@vercel/og": "^0.6.8"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
